@@ -1,0 +1,171 @@
+/* ----------------------------GENERAL-------------------- */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 1% 15% 7%;
+}
+/* ------------------HEADINGS--------------- */
+
+.big-heading {
+  color: white;
+  font-size: 3.5rem;
+}
+.md-heading {
+  font-size: 3rem;
+}
+.sm-heading {
+  font-size: 1.5rem;
+}
+/* --------------------TITLE--------------- */
+#title {
+  background-color: #ff4c68;
+}
+
+/* --------------------------------NAV BAR------------------ */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 1.2rem;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/* -----------------------------------DOG IPHONE--------------------------- */
+.dog {
+  max-width: 60%;
+
+  transform: rotate(25deg);
+
+  position: absolute;
+  right: 20%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.perro {
+  position: relative;
+  margin: 3rem 0 3rem;
+}
+
+.itemsbar {
+  position: absolute;
+  right: 1rem;
+}
+.download-button {
+  margin: 5% 3% 0 0;
+}
+/* -----------------------------FEATURES-------------------------------  */
+#features {
+  padding: 7% 15%;
+
+  background-color: white;
+
+  position: relative;
+}
+.features-div {
+  text-align: center;
+  padding: 5%;
+}
+.features-icon {
+  width: 3rem;
+}
+.fa-features {
+  color: #ef8162;
+  margin-bottom: 1rem;
+}
+.fa-features:hover {
+  color: #ff4c68;
+}
+/*----------------TESTIMONIALS-----------------*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8162;
+  color: #fff;
+}
+.testimonial-img1 {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* --------------------PRESS--------------------------- */
+#press {
+  text-align: center;
+  background-color: #ef8162;
+  padding-bottom: 3%;
+}
+.pressdiv {
+  background-color: white;
+  border-radius: 3rem;
+  margin: 0 15% 0;
+  height: fit-content;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* -----------------PRICING----------------------... */
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.nonmastifflast {
+  margin-bottom: 57px;
+}
+.card {
+  margin: 1rem 0rem;
+}
+/* -----------------DOWNLOAD-------------------- */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 20%;
+  text-align: center;
+  font-weight: bolder;
+
+  color: white;
+}
+.ctafont {
+  font-size: 2.5rem;
+}
+/* --------------------------FOOTER------------- */
+.footer-div-icon {
+  padding: 7% 15%;
+  text-align: center;
+}
+.icons-ft {
+  margin: 0 10px;
+}
+.copyright {
+  margin-top: 10px;
+}
+/* ------------------------------------------- */
